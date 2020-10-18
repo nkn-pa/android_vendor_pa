@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
 # AOSP Packages
 PRODUCT_PACKAGES += \
     Eleven \
+    LatinIME \
     ThemePicker
 
 # Charger Images
