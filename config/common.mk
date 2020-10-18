@@ -70,6 +70,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjni_latinimegoogle
 
+# Include LatinIME dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/dictionaries
+
 # GApps
 ifneq ($(TARGET_DISABLES_GAPPS), true)
 
