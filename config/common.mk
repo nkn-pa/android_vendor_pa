@@ -66,6 +66,10 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/pa/prebuilt/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
         vendor/pa/prebuilt/etc/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
+# Extra packages
+PRODUCT_PACKAGES += \
+    libjni_latinimegoogle
+
 # GApps
 ifneq ($(TARGET_DISABLES_GAPPS), true)
 
